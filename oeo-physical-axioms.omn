@@ -1,0 +1,61 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://openenergy-platform.org/ontology/oeo/oeo-physical-axioms/>
+<http://openenergy-platform.org/ontology/oeo/releases/1.14.0/oeo-physical-axioms.owl>
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/description> "The Open Energy Ontology is an ontology for all aspects of the energy modelling domain. The 'Physical axioms' module extends the 'Physical' module by general class axioms which cannot be represented in OWL Manchester Syntax the 'Physical' module uses.",
+    <http://purl.org/dc/terms/license> "http://creativecommons.org/publicdomain/zero/1.0/",
+    <http://purl.org/dc/terms/title> "Open Energy Ontology (Physical axioms module)"
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000233>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/terms/license>
+
+    
+AnnotationProperty: <http://purl.org/dc/terms/title>
+
+    
+Datatype: rdf:PlainLiteral
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0000053>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0000091>
+
+    
+Class: <http://openenergy-platform.org/ontology/oeo/OEO_00000007>
+
+    
+Class: <http://openenergy-platform.org/ontology/oeo/OEO_00000097>
+
+    
+Class: <http://openenergy-platform.org/ontology/oeo/OEO_00000139>
+
+    
+Class: <http://openenergy-platform.org/ontology/oeo/OEO_00000150>
+
+    
+Class: <http://openenergy-platform.org/ontology/oeo/OEO_00000151>
+
+    
+Class: <http://openenergy-platform.org/ontology/oeo/OEO_00000207>
+
+    
+Class: <http://openenergy-platform.org/ontology/oeo/OEO_00230020>
+
+    
+Class: <http://purl.obolibrary.org/obo/BFO_0000040>
+
+    

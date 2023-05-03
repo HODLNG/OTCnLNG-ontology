@@ -1,0 +1,249 @@
+[ {
+  "@id" : "http://openenergy-platform.org/ontology/oeo/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/contributor" : [ {
+    "@value" : "(0001) Lukas Emele (@l-emele)"
+  }, {
+    "@value" : "(0002) Mirjam Stappel (@stap-m)"
+  }, {
+    "@value" : "(0003) Anna Kleinau (@akleinau)"
+  }, {
+    "@value" : "(0004) Janna Hastings (@jannahastings)"
+  }, {
+    "@value" : "(0005) Vera Sehn (@Vera-IER)"
+  }, {
+    "@value" : "(0006) Hannah Förster (@han-f)"
+  }, {
+    "@value" : "(0007) Patrick Kuckertz (@p-kuckertz)"
+  }, {
+    "@value" : "(0008) Carsten Hoyer-Klick (@carstenhoyerklick)"
+  }, {
+    "@value" : "(0009) Christian Hofmann (@christian-rli)"
+  }, {
+    "@value" : "(0010) Kevin Knosala (@k-knosala)"
+  }, {
+    "@value" : "(0011) Ludwig Hülk (@Ludee)"
+  }, {
+    "@value" : "(0012) Izzet Kilicarslan (@Izzet91)"
+  }, {
+    "@value" : "(0013) Franziska Drathschmidt (@fradra)"
+  }, {
+    "@value" : "(0014) Simon Flügel (@sfluegel05)"
+  }, {
+    "@value" : "(0015) Ulrich Frey (@litotes18)"
+  }, {
+    "@value" : "(0016) Christoph Muschner (@chrwm)"
+  }, {
+    "@value" : "(0017) Christian Winger (@wingechr)"
+  }, {
+    "@value" : "(0018) Fabian Neuhaus (@fabianneuhaus)"
+  }, {
+    "@value" : "(0019) Lara Christmann (@solar-c)"
+  }, {
+    "@value" : "(0020) Martin Glauer (@MGlauer)"
+  }, {
+    "@value" : "(0021) Pierre-Francois Duc (@Bachibouzouk)"
+  }, {
+    "@value" : "(0022) Sebastian Cordes (@sebcordes)"
+  }, {
+    "@value" : "(0023) Michaja Pehl (@0UmfHxcvx5J7JoaOhFSs5mncnisTJJ6q)"
+  }, {
+    "@value" : "(0024) Kai Schnepf (@KaiSchnepf)"
+  }, {
+    "@value" : "(0025) Till Mossakowski (@tillmo)"
+  }, {
+    "@value" : "(0026) Alexander Stage (@stage1407)"
+  }, {
+    "@value" : "(0027) Hedda Gardian (@heddaelisabethgardian)"
+  }, {
+    "@value" : "(0028) Eugenio Salvador Arellano Ruiz (@areleu)"
+  }, {
+    "@value" : "(0029) Markus Rothkötter (@markus-rothkoetter)"
+  }, {
+    "@value" : "(0030) Linda Rülicke (@rue-l)"
+  }, {
+    "@value" : "(0031) Alexandra Seibicke (@Alex2448)"
+  }, {
+    "@value" : "(0032) Ludwig Mittermeier (@lumi321)"
+  }, {
+    "@value" : "(0033) Ulf Müller (@u-mueller)"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "The Open Energy Ontology is an ontology for all aspects of the energy modelling domain.\n\nIt is developed in four main modules: 'oeo-model', a module for all entities related to models and modelling; 'oeo-physical', a module for all entities related to the world of energy and energy generation; 'oeo-social', a module for all relevant social and economic aspects of the energy domain; 'oeo-shared', a module to cover entities and relations needed in all of the modules above to prevent them getting implemented multiple times.\nA supplementary module is the oeo-physical-axioms module, which contains general class axioms."
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "http://creativecommons.org/publicdomain/zero/1.0/"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Open Energy Ontology"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://openenergy-platform.org/ontology/oeo/dev/oeo-import-edits.owl"
+  }, {
+    "@id" : "http://openenergy-platform.org/ontology/oeo/dev/oeo-model.omn"
+  }, {
+    "@id" : "http://openenergy-platform.org/ontology/oeo/dev/oeo-physical-axioms.owl"
+  }, {
+    "@id" : "http://openenergy-platform.org/ontology/oeo/dev/oeo-physical.omn"
+  }, {
+    "@id" : "http://openenergy-platform.org/ontology/oeo/dev/oeo-social.omn"
+  }, {
+    "@id" : "https://raw.githubusercontent.com/BFO-ontology/BFO/v2.0/bfo.owl"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://openenergy-platform.org/ontology/oeo/dev/oeo.omn"
+  } ]
+}, {
+  "@id" : "http://openenergy-platform.org/ontology/oeo/Carbon_offset_LNG",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Carbon offset is a GHG that has carbon credits (from nature-based projects)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "carbon offset LNG"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://openenergy-platform.org/ontology/oeo/oeo-physical/OEO_00010237"
+  } ]
+}, {
+  "@id" : "http://openenergy-platform.org/ontology/oeo/oeo-physical/OEO_00010237",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000019",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000023",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000024",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000027",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000029",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000030",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000031",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000034",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000038",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000051",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000141",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000112",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000116",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000233",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0000056",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0000057",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0001015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0001025",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002223",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002224",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002229",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002230",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002233",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002234",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002353",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002418",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002427",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#string",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+} ]

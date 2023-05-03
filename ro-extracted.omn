@@ -1,0 +1,1333 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://openenergy-platform.org/ontology/oeo/imports/ro-extracted.owl>
+<http://openenergy-platform.org/ontology/oeo/releases/1.14.0/imports/ro-extracted.owl>
+
+Annotations: 
+    rdfs:comment "This file contains externally imported content from the Relations Ontology (RO) for import into the Open Energy Ontology (OEO). It is automatically extracted using ROBOT from the list of selected terms (ro-extract-w-hierarchy.txt, ro-extract-n-hierarchy.txt) located in the OEO-repository."^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000111>
+
+    
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000112>
+
+    
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000114>
+
+    
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000115>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "definition"
+    
+    
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000116>
+
+    
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000117>
+
+    
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000118>
+
+    
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000119>
+
+    
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000232>
+
+    
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000589>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "OBO foundry unique label"@en
+    
+    
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000600>
+
+    
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0001900>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "An assertion that holds between an OWL Object Property and a temporal interpretation that elucidates how OWL Class Axioms that use this property are to be interpreted in a temporal context.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "temporal interpretation",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:seeAlso <http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/>
+    
+    
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0040042>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "part-of is homeomorphic for independent continuants.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "R is homemorphic for C iff (1) there exists some x,y such that x R y, and x and y instantiate C and (2) for all x, if x is an instance of C, and there exists some y some such that x R y, then it follows that y is an instance of C.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://www.geneontology.org/formats/oboInOwl#created_by> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://www.geneontology.org/formats/oboInOwl#creation_date> "2018-10-21T19:46:34Z"^^xsd:dateTime,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:comment "R homeomorphic-for C expands to: C SubClassOf R only C. Additionally, for any class D that is disjoint with C, we can also expand to C DisjointWith R some D, D DisjointWith R some C.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "is homeomorphic for",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:seeAlso <https://github.com/oborel/obo-relations/issues/164>
+    
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/source>
+
+    
+AnnotationProperty: <http://purl.org/dc/terms/source>
+
+    
+AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#created_by>
+
+    
+AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#creation_date>
+
+    
+AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+
+    
+AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has_related_synonym"
+    
+    
+AnnotationProperty: <http://www.w3.org/ns/prov#wasDerivedFrom>
+
+    
+AnnotationProperty: rdfs:comment
+
+    
+AnnotationProperty: rdfs:isDefinedBy
+
+    Annotations: 
+        
+            Annotations: rdfs:comment "This is an experimental annotation", 
+                         <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000589> "is defined by"
+    
+    
+AnnotationProperty: rdfs:label
+
+    
+AnnotationProperty: rdfs:seeAlso
+
+    
+Datatype: rdf:PlainLiteral
+
+    
+Datatype: xsd:anyURI
+
+    
+Datatype: xsd:dateTime
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000050>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000111> "is part of"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "my brain is part of my body (continuant parthood, two material entities)"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this day is part of this year (occurrent parthood)"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "a core relation that holds between a part and its whole"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other."@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)
+
+A continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'."@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "part_of"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/RO_0040042> <http://purl.obolibrary.org/obo/BFO_0000002>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/RO_0040042> <http://purl.obolibrary.org/obo/BFO_0000003>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/RO_0040042> <http://purl.obolibrary.org/obo/BFO_0000004>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/RO_0040042> <http://purl.obolibrary.org/obo/BFO_0000017>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/RO_0040042> <http://purl.obolibrary.org/obo/BFO_0000019>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/RO_0040042> <http://purl.obolibrary.org/obo/BFO_0000020>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/RO_0040042> <http://purl.obolibrary.org/obo/BFO_0000031>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "part of"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:seeAlso <http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:seeAlso <http://ontologydesignpatterns.org/wiki/Submissions:PartOf>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:seeAlso "http://www.obofoundry.org/ro/#OBO_REL:part_of"
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000111> "has part"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "my body has part my brain (continuant parthood, two material entities)"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this year has part this day (occurrent parthood)"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "a core relation that holds between a whole and its part"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part."@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)
+
+A continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'."@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "has_part"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has part"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000054>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000111> "realized in"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this disease is realized in this disease course"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this fragility is realized in this shattering"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this investigator role is realized in this investigation"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "is realized by"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "realized_in"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000600> "[copied from inverse property 'realizes'] to say that b realizes c at t is to assert that there is some material entity d & b is a process which has participant d at t & c is a disposition or role of which d is bearer_of at t& the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:comment "Paraphrase of elucidation: a relation between a realizable entity and a process, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:isDefinedBy <http://purl.obolibrary.org/obo/bfo.owl>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "realized in"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000062>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000111> "preceded by"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point."@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "An example is: translation preceded_by transcription; aging preceded_by development (not however death preceded_by aging). Where derives_from links classes of continuants, preceded_by links classes of processes. Clearly, however, these two relations are not independent of each other. Thus if cells of type C1 derive_from cells of type C, then any cell division involving an instance of C1 in a given lineage is preceded_by cellular processes involving an instance of C.    The assertion P preceded_by P1 tells us something about Ps in general: that is, it tells us something about what happened earlier, given what we know about what happened later. Thus it does not provide information pointing in the opposite direction, concerning instances of P1 in general; that is, that each is such as to be succeeded by some instance of P. Note that an assertion to the effect that P preceded_by P1 is rather weak; it tells us little about the relations between the underlying instances in virtue of which the preceded_by relation obtains. Typically we will be interested in stronger relations, for example in the relation immediately_preceded_by, or in relations which combine preceded_by with a condition to the effect that the corresponding instances of P and P1 share participants, or that their participants are connected by relations of derivation, or (as a first step along the road to a treatment of causality) that the one process in some way affects (for example, initiates or regulates) the other."@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "is preceded by"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "preceded_by"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.org/dc/elements/1.1/source> "http://www.obofoundry.org/ro/#OBO_REL:preceded_by",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "preceded by"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0002086>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000063>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000111> "precedes"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point."@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "precedes"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0002222>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0000053>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000111> "bearer of"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this apple is bearer of this red color"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this vase is bearer of this fragility"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Inverse of characteristic_of"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist."@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "bearer_of"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "is bearer of"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has characteristic"@en
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0000056>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000111> "participates in"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this blood clot participates in this blood coagulation"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this input material (or this output material) participates in this process"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this investigator participates in this investigation"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "a relation between a continuant and a process, in which the continuant is somehow involved in the process"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "participates_in"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "participates in"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0000057>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000111> "has participant"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this blood coagulation has participant this blood clot"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this investigation has participant this investigator"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this process has participant this input material (or this output material)"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "a relation between a process and a continuant, in which the continuant is somehow involved in the process"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time."@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "has_participant"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.org/dc/elements/1.1/source> "http://www.obofoundry.org/ro/#OBO_REL:has_participant",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has participant"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0000085>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this enzyme has function this catalysis function (more colloquially: this enzyme has this catalysis function)"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "A bearer can have many functions, and its functions can exist for different periods of time, but none of its functions can exist when the bearer does not exist. A function need not be realized at all the times that the function exists."@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "has_function"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has function"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0000053>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0000086>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this apple has quality this red color"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist."@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "has_quality"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has quality"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0000053>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0000087>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this person has role this investigator role (more colloquially: this person has this role of investigator)"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists."@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "has_role"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has role"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0000053>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0000091>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has disposition"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0000053>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0001015>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000111> "is location of"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "my head is the location of my brain"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this cage is the location of this rat"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "a relation between two independent continuants, the location and the target, in which the target is entirely within the location"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "location_of"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "location of"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0001025>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000111> "located in"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "my brain is located in my head"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "this rat is located in this cage"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "a relation between two independent continuants, the target and the location, in which the target is entirely within the location"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "located_in"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.org/dc/elements/1.1/source> "http://www.obofoundry.org/ro/#OBO_REL:located_in",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "located in"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002081>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> "David Osumi-Sutherland",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "<="@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:comment "Primitive instance level timing relation between events",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "before or simultaneous with"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0002222>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002082>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-7073-9172>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> "David Osumi-Sutherland",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:comment "t1 simultaneous_with t2 iff:=  t1 before_or_simultaneous_with t2  and not (t1 before t2)"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "simultaneous with"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0002081>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002083>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> "David Osumi-Sutherland",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:comment "t1 before t2 iff:=  t1 before_or_simulataneous_with t2  and not (t1 simultaeous_with t2)"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "before"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0002081>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002086>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> "David Osumi-Sutherland",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:comment "X ends_after Y iff: end(Y) before_or_simultaneous_with end(X)"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "ends after"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0002222>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002089>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> "David Osumi-Sutherland",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "starts before"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0002222>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002091>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> "David Osumi-Sutherland",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "io",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:comment "X starts_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (start(X) before_or_simultaneous_with end(Y))"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "starts during"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0002222>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002092>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> "David Osumi-Sutherland",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "d",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "during",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:comment "X happens_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (end(X) before_or_simultaneous_with end(Y))"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "happens during"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0002091>,
+        <http://purl.obolibrary.org/obo/RO_0002093>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002093>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> "David Osumi-Sutherland",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "o",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "overlaps",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:comment "X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y). "@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "ends during"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0002222>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002222>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000119> <https://en.wikipedia.org/wiki/Allen%27s_interval_algebra>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000232> "Do not use this relation directly. It is ended as a grouping for relations between occurrents involving the relative timing of their starts and ends.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.org/dc/terms/source> "https://docs.google.com/document/d/1kBv1ep_9g3sTR-SD3jqzFqhuwo9TPNF-l-9fUDbO6rM/edit?pli=1"^^xsd:anyURI,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:comment "A relation that holds between two occurrents. This is a grouping relation that collects together all the Allen relations.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "temporally related to"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002223>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "inverse of starts with",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> "Chris Mungall",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000119> "Allen",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "starts"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002224>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "Every insulin receptor signaling pathway starts with the binding of a ligand to the insulin receptor",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "x starts with y if and only if x has part y and the time point at which x starts is equivalent to the time point at which y starts. Formally: α(y) = α(x) ∧ ω(y) < ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> "Chris Mungall",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "started by",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "starts with"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002229>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "inverse of ends with",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> "Chris Mungall",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "ends"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002230>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) > α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> "Chris Mungall",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "finished by",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "ends with"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002233>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "consumes",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has input"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0000057>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002234>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "p has output c iff c is a participant in p, c is present at the end of p, and c is not present in the same state at the beginning of p.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "produces",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has output"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0000057>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002328>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A grouping relationship for any relationship directly involving a function, or that holds because of a function of one of the related entities.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000232> "This is a grouping relation that collects relations used for the purpose of connecting structure and function",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "functionally related to"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002352>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "inverse of has input",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "input of"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0000056>,
+        <http://purl.obolibrary.org/obo/RO_0002328>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002353>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "inverse of has output",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "output of"@en
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0000056>,
+        <http://purl.obolibrary.org/obo/RO_0002328>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002410>
+
+    Annotations: 
+        
+            Annotations: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Causality", 
+                         <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "relation that links two events, processes, states, or objects such that one event, process, state, or object (a cause) contributes to the production of another event, process, state, or object (an effect) where the cause is partly or wholly responsible for the effect, and the effect is partly or wholly dependent on the cause.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "This branch of the ontology deals with causal relations between entities. It is divided into two branches: causal relations between occurrents/processes, and causal relations between material entities. We take an 'activity flow-centric approach', with the former as primary, and define causal relations between material entities in terms of causal relations between occurrents.
+
+To define causal relations in an activity-flow type network, we make use of 3 primitives:
+
+ * Temporal: how do the intervals of the two occurrents relate? 
+ * Is the causal relation regulatory?
+ * Is the influence positive or negative?
+
+The first of these can be formalized in terms of the Allen Interval Algebra. Informally, the 3 bins we care about are 'direct', 'indirect' or overlapping. Note that all causal relations should be classified under a RO temporal relation (see the branch under 'temporally related to'). Note that all causal relations are temporal, but not all temporal relations are causal. Two occurrents can be related in time without being causally connected. We take causal influence to be primitive, elucidated as being such that has the upstream changed, some qualities of the donwstream would necessarily be modified.
+
+For the second, we consider a relationship to be regulatory if the system in which the activities occur is capable of altering the relationship to achieve some objective. This could include changing the rate of production of a molecule.
+
+For the third, we consider the effect of the upstream process on the output(s) of the downstream process. If the level of output is increased, or the rate of production of the output is increased, then the direction is increased. Direction can be positive, negative or neutral or capable of either direction. Two positives in succession yield a positive, two negatives in succession yield a positive, otherwise the default assumption is that the net effect is canceled and the influence is neutral.
+
+Each of these 3 primitives can be composed to yield a cross-product of different relation types.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000232> "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "causally related to"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002418>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "p is 'causally upstream or within' q iff p is causally related to q, and the end of p precedes, or is coincident with, the end of q.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "We would like to make this disjoint with 'preceded by', but this is prohibited in OWL2",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "influences (processual)",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "affects",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "causally upstream of or within"
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0002501>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002427>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "inverse of causally upstream of or within",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/ro/docs/causal-relations>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "causally downstream of or within"
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0002501>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002501>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one where the execution of p influences the execution of q. p may be upstream, downstream, part of, or a container of q.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/ro/docs/causal-relations>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000232> "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "causal relation between processes"
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0002410>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002505>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000112> "'lysine biosynthetic process via diaminopimelate' SubClassOf has_intermediate some diaminopimelate",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "p has intermediate c if and only if p has parts p1, p2 and p1 has output c, and p2 has input c",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "has intermediate product",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has intermediate"
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0000057>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002615>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Inverse of is-model-of",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has model"
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0003000>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0001-9114-8737>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:comment "Note that this definition doesn't quite distinguish the output of a transformation process from a production process, which is related to the identity/granularity issue.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "produces"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0003001>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "a produced_by b iff some process that occurs_in b has_output a.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0001-9114-8737>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "produced by"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0003301>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A relation between a biological, experimental, or computational artifact and an entity it is used to study, in virtue of its replicating or approximating features of the studied entity.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-1048-5019>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000118> "is used to study"@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:comment "The primary use case for this relation was to link a biological model system such as a cell line or model organism to a disease it is used to investigate, in virtue of the model system exhibiting features similar to that of the disease of interest. But the relation is defined more broadly to support other use cases, such as linking genes in which alterations are made to create model systems to the condition the system is used to interrogate, or computational models to real-world phenomena they are defined to simulate.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has role in modeling"@en
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0004007>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "p 'has primary input ot output' c iff either (a) p 'has primary input' c or (b) p 'has primary output' c.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://www.geneontology.org/formats/oboInOwl#created_by> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://www.geneontology.org/formats/oboInOwl#creation_date> "2018-12-13T11:26:17Z"^^xsd:dateTime,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has primary input or output"
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0000057>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0004008>
+
+    Annotations: 
+        
+            Annotations: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:cjm", 
+                         <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph", 
+                         <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:kva", 
+                         <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pt", 
+                         rdfs:comment "PMID:27812932", 
+                         <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "p has primary output c if (a) p has output c and (b) the goal of process is to modify, produce, or transform c.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://www.geneontology.org/formats/oboInOwl#created_by> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://www.geneontology.org/formats/oboInOwl#creation_date> "2018-12-13T11:26:32Z"^^xsd:dateTime,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has primary output"
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0002234>,
+        <http://purl.obolibrary.org/obo/RO_0004007>
+    
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0004009>
+
+    Annotations: 
+        
+            Annotations: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:cjm", 
+                         <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph", 
+                         <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:kva", 
+                         <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pt", 
+                         rdfs:comment "PMID:27812932", 
+                         <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "p has primary input c if (a) p has input c and (b) the goal of process is to modify, consume, or transform c.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://www.geneontology.org/formats/oboInOwl#created_by> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://www.geneontology.org/formats/oboInOwl#creation_date> "2018-12-13T11:26:56Z"^^xsd:dateTime,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "has primary input"
+    
+    SubPropertyOf: 
+        <http://purl.obolibrary.org/obo/RO_0002233>,
+        <http://purl.obolibrary.org/obo/RO_0004007>
+    
+    
+ObjectProperty: owl:topObjectProperty
+
+    
+Class: <http://purl.obolibrary.org/obo/BFO_0000002>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts."@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "continuant"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/BFO_0000004>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything."@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "independent continuant"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/BFO_0000040>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "material entity"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/RO_0002577>
+
+    Annotations: 
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A material entity consisting of multiple components that are causally integrated.",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000116> "May be replaced by a BFO class, as discussed in http://www.jbiomedsem.com/content/4/1/43",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165>,
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        <http://purl.obolibrary.org/obo/IAO_0000119> "http://www.jbiomedsem.com/content/4/1/43",
+        
+            Annotations: <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>
+        rdfs:label "system"
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/BFO_0000040>
+    
+    
