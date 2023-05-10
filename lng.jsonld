@@ -1,5 +1,6 @@
 {
   "@context": {
+    "@id": "https://hodlng.github.io/OTCnLNG-ontology/lng.jsonld",
     "@vocab": "https://hodl.ng/ontology/",
     "schema": "https://schema.org",
     "oeo": "http://openenergy-platform.org/ontology/oeo/",
