@@ -1,3 +1,5 @@
+Copyright (c) 2022-2023 HODLNG OU
+
 # OTCnLNG-ontology
 This repository contains the Ontology models developped by OTCnLNG project**
 
