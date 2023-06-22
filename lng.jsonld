@@ -55,6 +55,22 @@
     },
     "global warming potential": {
       "@id": "oeo:OEO_00010078"
+    },
+    "vessel namme": {
+      "@type": "xsd:string"
+    },
+    "departure date": {
+      "@type": "xsd:dateTime"
+    },
+    "trip duration": {
+      "@type": "xsd:integer"
+    },
+    "destination": {
+      "@type": "xsd:string"
+    },
+    "ghg intensity assessments": {
+      "@type": "GHGIntensityAssessment",
+      "@container": "@set"
     }
   }
 }
