@@ -56,7 +56,7 @@
     "global warming potential": {
       "@id": "oeo:OEO_00010078"
     },
-    "vessel namme": {
+    "vessel name": {
       "@type": "xsd:string"
     },
     "departure date": {
